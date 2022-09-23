@@ -36,8 +36,8 @@ class LC_0001Test {
     @MethodSource
     public void testTwoSum(int[] nums, int target, Integer[] expected) {
         var result = Arrays.stream(solution.twoSum(nums, target))
-                .boxed()
-                .toArray(Integer[]::new);
+                                    .boxed()
+                                    .toArray(Integer[]::new);
 
         assertThat(result, is(arrayContainingInAnyOrder(expected)));
     }
