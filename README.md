@@ -2,7 +2,7 @@
 
 ![banner](banner.png "eureka-java")
 
-A curated list of [:coffee:](https://www.java.com/en/) solutions for problems regarding algorithms and data structures! The project is shipped with a testing environment for learning and experimenting.\
+A curated list of [Java](https://www.java.com/en/) solutions for problems regarding algorithms and data structures! The project is shipped with a testing environment for learning and experimenting.\
 Tests are written in [JUnit](https://junit.org/junit5/) and mocks in [Mockito](https://site.mockito.org/). [Hamcrest](https://hamcrest.org/JavaHamcrest/) matchers are used extensively to improve code readability.\
 The following table explains the meaning of commonly used aliases throughout the project:
 
