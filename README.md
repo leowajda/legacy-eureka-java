@@ -16,14 +16,10 @@ The following table explains the meaning of commonly used aliases throughout the
 ## :pushpin: Installation
 
 ```shell
-# Clone the repository from GitHub
-$ git clone https://github.com/leowajda/eureka-java.git
-# Navigate to root directory
-$ cd eureka-java
-# Compile source code
-$ mvn compile
-# (Optional) Run all the tests
-$ mvn test 
+$ git clone https://github.com/leowajda/eureka-java.git # clone the repository from GitHub
+$ cd eureka-java                                        # navigate to root directory
+$ mvn compile                                           # compile source code
+$ mvn test                                              # (optional) run all the tests
 ```
 
 ## :pencil2: Index
