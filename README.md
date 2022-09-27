@@ -17,7 +17,7 @@ The following table explains the meaning of commonly used aliases throughout the
 
 ```shell
 # Clone the repository from GitHub
-$ git clone git clone https://github.com/leowajda/eureka-java.git
+$ git clone https://github.com/leowajda/eureka-java.git
 # Navigate to root directory
 $ cd eureka-java
 # Compile source code
