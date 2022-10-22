@@ -57,8 +57,8 @@ public class TreeNode {
         while (!queue.isEmpty()) {
 
             TreeNode temp = queue.remove();
-            Integer leftVal = list.isEmpty() ? null : list.remove();
-            Integer rightVal = list.isEmpty() ? null : list.remove();
+            Integer leftVal = list.poll();
+            Integer rightVal = list.poll();
 
             temp.left = (leftVal != null) ? new TreeNode(leftVal) : null;
             temp.right = (rightVal != null) ? new TreeNode(rightVal) : null;
