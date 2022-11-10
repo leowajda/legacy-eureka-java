@@ -8,6 +8,10 @@ on:
 
 jobs:
   eureka-java-update:
-    uses: leowajda/eureka-scraper/.github/workflows/update-documentation.yml@master
-    with:
-      path-filter: 'src/main/**/*.java'
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - uses: leowajda/eureka-scraper/.github/workflows/update-documentation.yml@master
+      with:
+        path-filter: 'src/main/**/*.java'
