@@ -4,7 +4,7 @@ run-name: 🚀 Update /docs and README.md
 on:
   push:
     branches:
-      - test
+      - master
 
 jobs:
   update-documentation:
