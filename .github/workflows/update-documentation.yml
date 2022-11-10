@@ -8,7 +8,10 @@ on:
 
 jobs:
   checkout:
-    uses: actions/checkout@v3
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
 
   update-documentation:
     uses: leowajda/eureka-scraper/.github/workflows/update-documentation.yml@master
