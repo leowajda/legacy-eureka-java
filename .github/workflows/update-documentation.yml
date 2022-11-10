@@ -7,6 +7,9 @@ on:
       - master
 
 jobs:
+  checkout:
+    uses: actions/checkout@v3
+
   update-documentation:
     uses: leowajda/eureka-scraper/.github/workflows/update-documentation.yml@master
     with:
