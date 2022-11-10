@@ -64,5 +64,5 @@ name_col, lang_col = prev_data.columns[0], prev_data.columns[1]
 temp_data = populate_data(prev_data)
 new_data = pd.concat([temp_data[i] for i in range(len(temp_data))]).sort_index()
 
-if len(sys.argv) > 1:
+if not new_data.equals(prev_data):
     update_files(new_data)
