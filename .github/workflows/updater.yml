@@ -1,0 +1,14 @@
+name: Update Documentation
+run-name: 🚀 Update /docs and README.md
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  updater:
+    - name: 🚀 Run workflow
+      uses: leowajda/eureka-scraper/.github/workflows/updater.yml@master
+      with:
+        path-filter: 'src/main/**/*.java'
