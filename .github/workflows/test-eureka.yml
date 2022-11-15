@@ -20,6 +20,7 @@ jobs:
         with:
           distribution: 'corretto'
           java-version: '17'
+          cache: 'maven'
 
       - name: ✅ Run tests
         run: mvn -B package --file pom.xml
