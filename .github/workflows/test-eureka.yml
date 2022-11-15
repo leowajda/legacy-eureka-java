@@ -1,0 +1,25 @@
+name: Test Maven project
+run-name: ✅ Test Maven project
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: 📦 Checkout
+        uses: actions/checkout@v3
+
+      - name: 📦️ Setup Java
+        uses: actions/setup-python@v4
+        with:
+          distribution: 'corretto'
+          java-version: '17'
+
+      - name: ✅ Run tests
+        run: mvn -B package --file pom.xml
