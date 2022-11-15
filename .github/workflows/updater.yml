@@ -8,6 +8,6 @@ on:
 
 jobs:
   updater:
-      uses: leowajda/eureka-scraper/.github/workflows/updater.yml@master
+      uses: leowajda/eureka-scraper/.github/workflows/update-eureka.yml@master
       with:
         path-filter: 'src/main/**/*.java'
