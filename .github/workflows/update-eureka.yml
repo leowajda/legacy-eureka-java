@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  updater:
+  updater-java:
       uses: leowajda/eureka/.github/workflows/update-eureka.yml@master
       with:
         path-filter: 'src/main/**/*.java'
