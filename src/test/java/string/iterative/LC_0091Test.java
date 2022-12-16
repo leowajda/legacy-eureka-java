@@ -23,12 +23,10 @@ class LC_0091Test {
 
     private static Stream<Arguments> testNumDecodings() {
         return Stream.of(
-
-                arguments("12",  2),
-                arguments("226", 3),
-                arguments("06",  0),
+                arguments("12",     2),
+                arguments("226",    3),
+                arguments("06",     0),
                 arguments("481023", 2)
-
         );
     }
 

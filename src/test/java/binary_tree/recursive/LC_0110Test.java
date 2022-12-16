@@ -24,9 +24,9 @@ public class LC_0110Test {
 
     private static Stream<Arguments> testIsBalanced() {
         return Stream.of(
-                arguments(deserialize(3, 9, 20, null, null, 15, 7), true),
+                arguments(deserialize(3, 9, 20, null, null, 15, 7),      true),
                 arguments(deserialize(1, 2, 2, 3, 3, null, null, 4, 4), false),
-                arguments(deserialize(), true)
+                arguments(deserialize(),                                        true)
         );
     }
 

@@ -23,11 +23,9 @@ class LC_0002Test {
 
     private static Stream<Arguments> testAddTwoNumbers() {
         return Stream.of(
-
-                arguments(buildList(2,4,3),         buildList(5,6,4),   buildList(7,0,8)),
-                arguments(buildList(0),             buildList(0),       buildList(0)),
-                arguments(buildList(9,9,9,9,9,9,9), buildList(9,9,9,9), buildList(8,9,9,9,0,0,0,1))
-
+                arguments(buildList(2, 4, 3),             buildList(5, 6, 4),    buildList(7, 0, 8)),
+                arguments(buildList(0),                   buildList(0),          buildList(0)),
+                arguments(buildList(9, 9, 9, 9, 9, 9, 9), buildList(9, 9, 9, 9), buildList(8, 9, 9, 9, 0, 0, 0, 1))
         );
     }
 

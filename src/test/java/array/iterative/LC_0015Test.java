@@ -22,11 +22,9 @@ public class LC_0015Test {
 
     private static Stream<Arguments> testThreeSum() {
         return Stream.of(
-
-                arguments(new int[] { -1, 0, 1, 2, -1, -4 }, List.of(List.of(-1,-1,2), List.of(-1,0,1))),
-                arguments(new int[] { 0,1,1 },               List.of()),
-                arguments(new int[] { 0,0,0 },               List.of(List.of(0,0,0)))
-
+                arguments(new int[] { -1, 0, 1, 2, -1, -4 }, List.of(List.of(-1, -1, 2), List.of(-1, 0, 1))),
+                arguments(new int[] { 0, 1, 1 },             List.of()),
+                arguments(new int[] { 0, 0, 0 },             List.of(List.of(0, 0, 0)))
         );
     }
 

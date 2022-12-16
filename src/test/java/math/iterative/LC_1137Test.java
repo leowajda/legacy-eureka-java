@@ -23,7 +23,7 @@ public class LC_1137Test {
 
     private static Stream<Arguments> testTribonacci() {
         return Stream.of(
-                arguments(4, 4),
+                arguments(4,        4),
                 arguments(25, 1389537)
         );
     }

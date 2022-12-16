@@ -21,7 +21,7 @@ public class LC_0746Test {
 
     private static Stream<Arguments> testMinCostClimbingStairs() {
         return Stream.of(
-                arguments(new int[] { 10, 15, 20 },                         15),
+                arguments(new int[] { 10, 15, 20 },                        15),
                 arguments(new int[] { 1, 100, 1, 1, 1, 100, 1, 1, 100, 1 }, 6)
         );
     }

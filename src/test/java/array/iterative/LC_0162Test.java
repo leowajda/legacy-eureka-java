@@ -23,8 +23,8 @@ public class LC_0162Test {
 
     private static Stream<Arguments> testFindPeakElement() {
         return Stream.of(
-                arguments(new int[] { 1,2,1,3,5,6,4 },  5),
-                arguments(new int[] { 1,2,3,1 },        2)
+                arguments(new int[] { 1, 2, 1, 3, 5, 6, 4 },  5),
+                arguments(new int[] { 1, 2, 3, 1 },           2)
         );
     }
 

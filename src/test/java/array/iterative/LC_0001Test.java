@@ -24,11 +24,9 @@ class LC_0001Test {
 
     private static Stream<Arguments> testTwoSum() {
         return Stream.of(
-
-                arguments(new int[] { 2,7,11,15 }, 9,   new Integer[]{ 1,0 }),
-                arguments(new int[] { 3,2,4 },     6,   new Integer[]{ 2,1 }),
-                arguments(new int[] { 3,3 },       6,   new Integer[]{ 1,0 })
-
+                arguments(new int[] { 2, 7, 11, 15 }, 9,   new Integer[]{ 1, 0 }),
+                arguments(new int[] { 3, 2, 4 },      6,   new Integer[]{ 2, 1 }),
+                arguments(new int[] { 3, 3 },         6,   new Integer[]{ 1, 0 })
         );
     }
 
