@@ -24,9 +24,9 @@ public class LC_0139Test {
 
     private static Stream<Arguments> testWordBreak() {
         return Stream.of(
-                arguments("leetcode",     List.of("leet","code"),                   true),
-                arguments("applepenapple",List.of("apple","pen"),                   true),
-                arguments("catsandog",    List.of("cats","dog","sand","and","cat"), false)
+                arguments("leetcode",     List.of("leet", "code"),                      true),
+                arguments("applepenapple",List.of("apple", "pen"),                      true),
+                arguments("catsandog",    List.of("cats", "dog", "sand", "and", "cat"), false)
         );
     }
 
