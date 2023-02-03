@@ -4,6 +4,7 @@ ID,Name,Java
 3,[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/),[:arrow_up_down:](https://github.com/leowajda/eureka-java/blob/master/src/main/java/string/iterative/LC_0003.java)
 15,[3Sum](https://leetcode.com/problems/3sum/),[:arrow_up_down:](https://github.com/leowajda/eureka-java/blob/master/src/main/java/array/iterative/LC_0015.java)
 36,[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/), [:arrow_up_down:](https://github.com/leowajda/eureka-java/blob/master/src/main/java/array/iterative/LC_0036.java) 
+42,[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/),[:arrow_up_down:](https://github.com/leowajda/eureka-java/blob/master/src/main/java/array/iterative/LC_0042.java)
 45,[Jump Game II](https://leetcode.com/problems/jump-game-ii/),[:arrow_up_down:](https://github.com/leowajda/eureka-java/blob/master/src/main/java/array/iterative/LC_0045.java)
 53,[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/),[:arrow_up_down:](https://github.com/leowajda/eureka-java/blob/master/src/main/java/array/iterative/LC_0053.java)
 55,[Jump Game](https://leetcode.com/problems/jump-game/),[:arrow_up_down:](https://github.com/leowajda/eureka-java/blob/master/src/main/java/array/iterative/LC_0055.java)
